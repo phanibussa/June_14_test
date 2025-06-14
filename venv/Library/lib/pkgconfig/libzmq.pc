@@ -1,0 +1,12 @@
+prefix=c:/Users/phani/OneDrive/Desktop/workspace/ML_BookCamp/Python/venv/Library
+exec_prefix=c:/Users/phani/OneDrive/Desktop/workspace/ML_BookCamp/Python/venv/Library
+libdir=c:/Users/phani/OneDrive/Desktop/workspace/ML_BookCamp/Python/venv/Library/lib
+includedir=c:/Users/phani/OneDrive/Desktop/workspace/ML_BookCamp/Python/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
